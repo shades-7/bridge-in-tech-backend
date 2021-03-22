@@ -18,7 +18,7 @@ from app.api.models.organization import *
 from app.api.validations.organization import validate_update_organization, validate_update_program
 from app.utils.bit_constants import DEFAULT_PAGE, DEFAULT_ORGANIZATIONS_PER_PAGE, DEFAULT_PROGRAMS_PER_PAGE
 
-
+# changed
 organizations_ns = Namespace("Organizations", description="Operations related to organizations")
 add_models_to_namespace(organizations_ns)
 
